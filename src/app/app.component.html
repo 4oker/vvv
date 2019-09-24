@@ -1,0 +1,10 @@
+
+<p>
+  timer
+</p>
+
+<button (click)='startTimer()'>Start Timer</button>
+<button (click)='pauseTimer()'>Pause</button>
+<button id="reset" (click)='resetTimer()'>Reset</button>
+
+<h3>  {{ houres | number:'2.0'}}  : {{minutes | number:'2.0'}} : {{secs | number:'2.0'}}</h3>
